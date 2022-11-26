@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "626328565682",
+    "firebase_url": "https://test-8fd3e-default-rtdb.firebaseio.com",
+    "project_id": "test-8fd3e",
+    "storage_bucket": "test-8fd3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626328565682:android:85617ee16cd49c312a16ab",
+        "android_client_info": {
+          "package_name": "com.example.navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626328565682-rvkd3vmhoch9oc4phc54s467mt8kg6vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaWdQ-7yrsC_DCojbLcjMgkfbbLcuv5B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626328565682-rvkd3vmhoch9oc4phc54s467mt8kg6vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626328565682:android:ea6a2b59e012c8022a16ab",
+        "android_client_info": {
+          "package_name": "com.example.stopwatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626328565682-rvkd3vmhoch9oc4phc54s467mt8kg6vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaWdQ-7yrsC_DCojbLcjMgkfbbLcuv5B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626328565682-rvkd3vmhoch9oc4phc54s467mt8kg6vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626328565682:android:908e1c1630d453292a16ab",
+        "android_client_info": {
+          "package_name": "com.example.team_16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626328565682-rvkd3vmhoch9oc4phc54s467mt8kg6vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaWdQ-7yrsC_DCojbLcjMgkfbbLcuv5B8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626328565682-rvkd3vmhoch9oc4phc54s467mt8kg6vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

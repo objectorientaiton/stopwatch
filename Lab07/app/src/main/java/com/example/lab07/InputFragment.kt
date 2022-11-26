@@ -66,9 +66,9 @@ class InputFragment : Fragment() {
 
     override fun onDestroyView(){ // 메모리가 안새게 하는 함수
         super.onDestroyView()
-
         binding = null
     }
+
     fun setResult(){
         Bundle().let{ bundle->
             binding?.editNumber1?.text.toString().toIntOrNull()?.let { number ->

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.study.LogInragment"
+        android:label="fragment_log_inragment"
+        tools:layout="@layout/fragment_log_inragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_findIDFragment"
+            app:destination="@id/findIDFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_findPasswordFragment"
+            app:destination="@id/findPasswordFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_stopwatchFragment"
+            app:destination="@id/stopwatchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.study.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/findIDFragment"
+        android:name="com.example.study.FindidFragment"
+        android:label="fragment_findid"
+        tools:layout="@layout/fragment_findid" >
+        <action
+            android:id="@+id/action_findIDFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_findIDFragment_to_findPasswordFragment"
+            app:destination="@id/findPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/findPasswordFragment"
+        android:name="com.example.study.FindPasswordFragment"
+        android:label="fragment_find_password"
+        tools:layout="@layout/fragment_find_password" />
+    <fragment
+        android:id="@+id/stopwatchFragment"
+        android:name="com.example.study.StopwatchFragment"
+        android:label="fragment_stopwatch"
+        tools:layout="@layout/fragment_stopwatch" >
+        <action
+            android:id="@+id/action_stopwatchFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+        <action
+            android:id="@+id/action_stopwatchFragment_to_rankingFragment"
+            app:destination="@id/rankingFragment" />
+        <action
+            android:id="@+id/action_stopwatchFragment_to_statisitcFragment"
+            app:destination="@id/statisitcFragment" />
+        <action
+            android:id="@+id/action_stopwatchFragment_to_mypageFragment"
+            app:destination="@id/mypageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.study.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_calendarFragment_to_stopwatchFragment"
+            app:destination="@id/stopwatchFragment" />
+        <action
+            android:id="@+id/action_calendarFragment_to_statisitcFragment"
+            app:destination="@id/statisitcFragment" />
+        <action
+            android:id="@+id/action_calendarFragment_to_rankingFragment"
+            app:destination="@id/rankingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rankingFragment"
+        android:name="com.example.study.RankingFragment"
+        android:label="fragment_ranking"
+        tools:layout="@layout/fragment_ranking" >
+        <action
+            android:id="@+id/action_rankingFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+        <action
+            android:id="@+id/action_rankingFragment_to_statisitcFragment"
+            app:destination="@id/statisitcFragment" />
+        <action
+            android:id="@+id/action_rankingFragment_to_mypageFragment"
+            app:destination="@id/mypageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mypageFragment"
+        android:name="com.example.study.MypageFragment"
+        android:label="fragment_mypage"
+        tools:layout="@layout/fragment_mypage" >
+        <action
+            android:id="@+id/action_mypageFragment_to_stopwatchFragment"
+            app:destination="@id/stopwatchFragment" />
+        <action
+            android:id="@+id/action_mypageFragment_to_statisitcFragment"
+            app:destination="@id/statisitcFragment" />
+        <action
+            android:id="@+id/action_mypageFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+        <action
+            android:id="@+id/action_mypageFragment_to_rankingFragment"
+            app:destination="@id/rankingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statisitcFragment"
+        android:name="com.example.study.StatisitcFragment"
+        android:label="fragment_statisitc"
+        tools:layout="@layout/fragment_statisitc" >
+        <action
+            android:id="@+id/action_statisitcFragment_to_mypageFragment"
+            app:destination="@id/mypageFragment" />
+        <action
+            android:id="@+id/action_statisitcFragment_to_rankingFragment"
+            app:destination="@id/rankingFragment" />
+    </fragment>
+</navigation>
